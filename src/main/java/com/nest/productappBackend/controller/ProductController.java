@@ -23,4 +23,9 @@ public class ProductController {
         return "search products";
     }
 
+    @PostMapping("/deleteProducts")
+    public Stirng deleteProducts(){
+        return "delete products"
+    }
+
 }
